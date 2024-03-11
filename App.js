@@ -3,6 +3,7 @@ import {View, Text, StyleSheet} from "react-native";
 export default function App(){
   return(
     <View style={ESTILO.container}>
+      <Image source={require("./assets/logo.png")} style={ESTILO.logo}/>
       <Text>
         Meu App!
       </Text>
